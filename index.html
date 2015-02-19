@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ICC Wordcup Feed Plugin Demo</title>
+<link rel="stylesheet" href="jquery-wcfeed.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="jquery-wcfeed.js"></script>
+
+<style>
+body {
+	font-size: 200%;
+}
+#cricfeed {
+	width: 100%;
+	padding: 0;
+	background: #666666;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#cricfeed p {
+	color: #FFFFFF;
+	margin: 6px 0;
+}
+</style>
+
+</head>
+<body>
+<div id="cricfeed"></div>
+</body>
+<script type="text/javascript">
+	$('#cricfeed').wcfeed();
+</script>
+</html>

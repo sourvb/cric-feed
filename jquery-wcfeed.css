@@ -1,0 +1,17 @@
+.cric-feed .feedflare {
+	display: none;
+}
+.cric-feed li {
+	list-style: none;
+}
+.cric-feed {
+	margin: 1em;
+	padding: 0;
+}
+.cric-feed p.feed-time {
+	font-style: italic;
+	font-size: 80%;
+}
+.cric-feed p.feed-title {
+	font-weight: bold;
+}
