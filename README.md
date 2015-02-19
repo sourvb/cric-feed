@@ -35,10 +35,10 @@ You can customize the style of any element of the plugin to match your website t
 
 
 ## Plugin Options
-feed_url - String of a valid URL. Currently the plugin supports a fixed URL (specific yahoo pipe) only.
-feed_format - String of required data format. Currently plugin supports JSON data only.
-refresh_frequency - Integer. Time interval in milliseconds for fetching the feed.
-slide_interval - Integer. Time interval in milliseconds for determining how long each news item will be visible.
+* feed_url - String of a valid URL. Currently the plugin supports a fixed URL (specific yahoo pipe) only.
+* feed_format - String of required data format. Currently plugin supports JSON data only.
+* refresh_frequency - Integer. Time interval in milliseconds for fetching the feed.
+* slide_interval - Integer. Time interval in milliseconds for determining how long each news item will be visible.
 
 
 
