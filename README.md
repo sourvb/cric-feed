@@ -1,5 +1,5 @@
 ## Introduction
-A light weight plugin for adding ICC world cup 2015 real time scores to any webpage in a news scroller style.
+A light weight plugin for adding ICC world cup 2015 real time scores to any webpage like a news-scroller style.
 Developed using jQuery Boilerplate-v3.3.4 and Yahoo Pipes
 
 
