@@ -31,10 +31,67 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>
-<a id="cric-feed" class="anchor" href="#cric-feed" aria-hidden="true"><span class="octicon octicon-link"></span></a>cric-feed</h1>
+        <h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>A light weight plugin for adding ICC world cup 2015 real time scores to any webpage.</p>
+<p>A light weight plugin for adding ICC world cup 2015 real time scores to any webpage like a news-scroller.
+Developed using jQuery Boilerplate-v3.3.4 and Yahoo Pipes.</p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>Add the jquery-wcfeed.js and jquery-wcfeed.css to HTML.</p>
+
+<h2>
+<a id="how-to-initialize" class="anchor" href="#how-to-initialize" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Initialize</h2>
+
+<h5>
+<a id="html-code" class="anchor" href="#html-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML CODE</h5>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s1"><span class="pl-pds">"</span>cricfeed<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h5>
+<a id="javascript" class="anchor" href="#javascript" aria-hidden="true"><span class="octicon octicon-link"></span></a>JAVASCRIPT</h5>
+
+<div class="highlight highlight-javascript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>#cricfeed<span class="pl-pds">'</span></span>).wcfeed();</pre></div>
+
+<h5>
+<a id="css" class="anchor" href="#css" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS</h5>
+
+<pre><code>Check out the internal css in index.html. This css is just for the demo. 
+You can customize the style of any element of the plugin to match your website theme.
+</code></pre>
+
+<h2>
+<a id="plugin-options" class="anchor" href="#plugin-options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugin Options</h2>
+
+<ul>
+<li>feed_url - String of a valid URL. Currently the plugin supports a fixed URL (specific yahoo pipe) only.</li>
+<li>feed_format - String of required data format. Currently plugin supports JSON data only.</li>
+<li>refresh_frequency - Integer. Time interval in milliseconds for fetching the feed.</li>
+<li>slide_interval - Integer. Time interval in milliseconds for determining how long each news item will be visible.</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-javascript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>#cricfeed<span class="pl-pds">'</span></span>).wcfeed({
+    feed_url<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a&amp;_render=json<span class="pl-pds">'</span></span>,
+    feed_format<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">'</span>json<span class="pl-pds">'</span></span>,
+    refresh_frequency<span class="pl-k">:</span> <span class="pl-c1">300000</span>,
+    slide_interval<span class="pl-k">:</span> <span class="pl-c1">5000</span>
+});</pre></div>
+
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p><a href="https://code.jquery.com/jquery-1.11.2.min.js">jQuery core</a>.
+Tested with jQuery core v1.11.2, v1.10.2 and v1.8.2</p>
+
+<h2>
+<a id="yahoo-pipe-used-for-feed" class="anchor" href="#yahoo-pipe-used-for-feed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Yahoo Pipe Used for Feed</h2>
+
+<p><a href="http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a">Yahoo Pipe</a>.</p>
       </section>
     </div>
 
