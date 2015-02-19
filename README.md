@@ -47,10 +47,10 @@ slide_interval - Integer. Time interval in milliseconds for determining how long
 # Usage
 <code>
 $('#cricfeed').wcfeed({
-	feed_url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a&_render=json',
-	feed_format: 'json',
-	refresh_frequency: 300000,
-	slide_interval: 5000
+    feed_url: 'http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a&_render=json',
+    feed_format: 'json',
+    refresh_frequency: 300000,
+    slide_interval: 5000
 });
 </code>
 
