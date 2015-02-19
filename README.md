@@ -59,12 +59,12 @@ $('#cricfeed').wcfeed({
 
 
 ## Dependencies
-[jQuery core](https://code.jquery.com/jquery-1.11.2.min.js)
-Tested with jQuery core versions 1.11.2, 1.10.2 and 1.8.2
+[jQuery core](https://code.jquery.com/jquery-1.11.2.min.js).
+Tested with jQuery core v1.11.2, v1.10.2 and v1.8.2
 
 
 
 
 
 ## Yahoo Pipe Used for Feed
-[Yahoo Pipe](http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a)
+[Yahoo Pipe](http://pipes.yahoo.com/pipes/pipe.run?_id=77f6d817238499a113ec2e7fed114b8a).
